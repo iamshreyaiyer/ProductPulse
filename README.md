@@ -32,6 +32,16 @@ Files used:
 - `item_properties_part1.csv`
 - `item_properties_part2.csv`
 
+### Dataset Setup
+
+1. Download the [RetailRocket dataset from Kaggle](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset).
+2. Extract the downloaded files.
+3. Create a folder named `productpulse/data/`.
+4. Place all four CSV files inside the `data` folder.
+5. Update the `DATA_DIR` variable in the notebook to point to your local dataset folder.
+
+**Note:** The dataset is not included in this repository. Users must download it separately from Kaggle and comply with its applicable terms of use.
+
 The event data contains three interaction types:
 
 - `view`
